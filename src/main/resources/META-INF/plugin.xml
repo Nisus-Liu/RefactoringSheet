@@ -1,0 +1,49 @@
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+    <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
+    <id>com.nisus.refactoring-sheet</id>
+
+    <!-- Public plugin name should be written in Title Case.
+         Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
+    <name>RefactoringSheet</name>
+
+    <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
+    <vendor email="609069481@qq.com" url="https://www.life666.top">Nisus</vendor>
+
+    <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
+         Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
+         Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
+    <description><![CDATA[
+    重构方法速查。<br>
+    《重构-改善既有代码的设计》（Refactoring, Improving the Design of Existing Code）<br>
+  ]]></description>
+
+    <!-- Product and plugin compatibility requirements.
+         Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <!-- Extension points defined by the plugin.
+         Read more: https://plugins.jetbrains.com/docs/intellij/plugin-extension-points.html -->
+    <extensions defaultExtensionNs="com.intellij">
+
+    </extensions>
+
+    <!-- Declare the default resource location for localizing menu strings -->
+    <resource-bundle>messages.text</resource-bundle>
+
+    <actions>
+        <group id="com.nisus.refactoringsheet.action.RsActionGroup"
+               class="com.nisus.refactoringsheet.action.RsActionGroup"
+               popup="true"
+               icon="SdkIcons.PluginIcon">
+            <add-to-group group-id="EditorPopupMenu" anchor="last"/>
+            <action id="com.nisus.refactoringsheet.action.sheet.ExtractFunction"
+                    class="com.nisus.refactoringsheet.action.sheet.ExtractFunction"
+                    text="提炼函数（Extract Function）"/>
+            <action id="com.nisus.refactoringsheet.action.BrowseBookAction"
+                    class="com.nisus.refactoringsheet.action.BrowseBookAction"
+                    icon="SdkIcons.BookIcon"
+                    text="《重构》电子书"/>
+        </group>
+    </actions>
+</idea-plugin>
