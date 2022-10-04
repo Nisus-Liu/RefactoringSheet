@@ -1,1 +1,1 @@
-rootProject.name = "refactoring-sheet"
+rootProject.name = "idea-plugin-refactoring-sheet"
