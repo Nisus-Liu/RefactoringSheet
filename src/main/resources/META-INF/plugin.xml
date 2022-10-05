@@ -43,7 +43,7 @@
             <add-to-group group-id="ToolsMenu" anchor="last"/>
 
             <!--重构方法列表-->
-            <separator text="第一组重构" />
+            <separator text="第一组重构"/>
             <action id="com.nisus.refactoringsheet.action.sheet.ExtractFunction"
                     class="com.nisus.refactoringsheet.action.sheet.ExtractFunction"
                     text="提炼函数（Extract Function）"/>
@@ -68,7 +68,7 @@
             <action id="com.nisus.refactoringsheet.action.sheet.SplitPhase"
                     class="com.nisus.refactoringsheet.action.sheet.SplitPhase"/>
 
-            <separator text="封装" />
+            <separator text="封装"/>
             <action id="com.nisus.refactoringsheet.action.sheet.EncapsulateRecord"
                     class="com.nisus.refactoringsheet.action.sheet.EncapsulateRecord"/>
             <action id="com.nisus.refactoringsheet.action.sheet.EncapsulateCollection"
@@ -178,6 +178,49 @@
                     class="com.nisus.refactoringsheet.action.BrowseBookAction"
                     icon="SdkIcons.BookIcon"
                     text="《重构》电子书"/>
+        </group>
+
+        <group id="com.nisus.refactoringsheet.badsmell.BadSmellActionGroup"
+               class="com.nisus.refactoringsheet.badsmell.BadSmellActionGroup"
+               popup="true"
+               icon="SdkIcons.BadSmell">
+            <add-to-group group-id="ToolsMenu" anchor="after"
+                          relative-to-action="com.nisus.refactoringsheet.action.RsActionGroup"/>
+
+            <action id="com.nisus.refactoringsheet.badsmell.MysteriousName"
+                    class="com.nisus.refactoringsheet.badsmell.MysteriousName"/>
+            <action id="com.nisus.refactoringsheet.badsmell.DuplicatedCode"
+                    class="com.nisus.refactoringsheet.badsmell.DuplicatedCode"/>
+            <action id="com.nisus.refactoringsheet.badsmell.LongFunction"
+                    class="com.nisus.refactoringsheet.badsmell.LongFunction"/>
+            <action id="com.nisus.refactoringsheet.badsmell.LongParameterList"
+                    class="com.nisus.refactoringsheet.badsmell.LongParameterList"/>
+            <action id="com.nisus.refactoringsheet.badsmell.GlobalData"
+                    class="com.nisus.refactoringsheet.badsmell.GlobalData"/>
+            <action id="com.nisus.refactoringsheet.badsmell.MutableData"
+                    class="com.nisus.refactoringsheet.badsmell.MutableData"/>
+            <action id="com.nisus.refactoringsheet.badsmell.DivergentChange"
+                    class="com.nisus.refactoringsheet.badsmell.DivergentChange"/>
+            <action id="com.nisus.refactoringsheet.badsmell.DataClumps"
+                    class="com.nisus.refactoringsheet.badsmell.DataClumps"/>
+            <action id="com.nisus.refactoringsheet.badsmell.PrimitiveObsession"
+                    class="com.nisus.refactoringsheet.badsmell.PrimitiveObsession"/>
+            <action id="com.nisus.refactoringsheet.badsmell.RepeatedSwitches"
+                    class="com.nisus.refactoringsheet.badsmell.RepeatedSwitches"/>
+            <action id="com.nisus.refactoringsheet.badsmell.Loops"
+                    class="com.nisus.refactoringsheet.badsmell.Loops"/>
+            <action id="com.nisus.refactoringsheet.badsmell.TemporaryField"
+                    class="com.nisus.refactoringsheet.badsmell.TemporaryField"/>
+            <action id="com.nisus.refactoringsheet.badsmell.MessageChains"
+                    class="com.nisus.refactoringsheet.badsmell.MessageChains"/>
+            <action id="com.nisus.refactoringsheet.badsmell.MiddleMan"
+                    class="com.nisus.refactoringsheet.badsmell.MiddleMan"/>
+            <action id="com.nisus.refactoringsheet.badsmell.LargeClass"
+                    class="com.nisus.refactoringsheet.badsmell.LargeClass"/>
+            <action id="com.nisus.refactoringsheet.badsmell.AlternativeClassesWithDifferentInterfaces"
+                    class="com.nisus.refactoringsheet.badsmell.AlternativeClassesWithDifferentInterfaces"/>
+            <action id="com.nisus.refactoringsheet.badsmell.Comments"
+                    class="com.nisus.refactoringsheet.badsmell.Comments"/>
         </group>
     </actions>
 </idea-plugin>

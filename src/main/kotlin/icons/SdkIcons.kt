@@ -10,4 +10,6 @@ object SdkIcons {
     val BookIcon = IconLoader.getIcon("/icons/book.png", SdkIcons.javaClass)
     @JvmField
     val PluginIcon = IconLoader.getIcon("/icons/pluginIcon.svg", SdkIcons.javaClass)
+    @JvmField
+    val BadSmell = IconLoader.getIcon("/icons/badSmell.svg", SdkIcons.javaClass)
 }

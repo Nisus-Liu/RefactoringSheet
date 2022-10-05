@@ -5,72 +5,99 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5917c5e2-00b4-45a6-9866-53545484705e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ChangeFunctionDeclaration.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ChangeReferenceToValue.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ChangeValueToReference.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/CollapseHierarchy.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/CombineFunctionsIntoClass.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/CombineFunctionsIntoTransform.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ConsolidateConditionalExpression.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/DecomposeConditional.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/EncapsulateCollection.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/EncapsulateRecord.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/EncapsulateVariable.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ExtractClass.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ExtractSuperclass.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ExtractVariable.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/HideDelegate.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/InlineClass.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/InlineFunction.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/InlineVariable.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/IntroduceAssertion.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/IntroduceParameterObject.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/IntroduceSpecialCase.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/MoveField.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/MoveFunction.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/MoveStatementsIntoFunction.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/MoveStatementsToCallers.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ParameterizeFunction.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/PreserveWholeObject.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/PullUpConstructorBody.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/PullUpField.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/PullUpMethod.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/PushDownField.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/PushDownMethod.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/RemoveDeadCode.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/RemoveFlagArgument.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/RemoveMiddleMan.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/RemoveSettingMethod.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/RemoveSubclass.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/RenameField.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/RenameVariable.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ReplaceCommandWithFunction.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ReplaceConditionalWithPolymorphism.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ReplaceConstructorWithFactoryFunction.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ReplaceDerivedVariableWithQuery.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ReplaceFunctionWithCommand.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ReplaceInlineCodeWithFunctionCall.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ReplaceLoopWithPipeline.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ReplaceNestedConditionalWithGuardClauses.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ReplaceParameterWithQuery.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ReplacePrimitiveWithObject.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ReplaceQueryWithParameter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ReplaceSubclassWithDelegate.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ReplaceSuperclassWithDelegate.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ReplaceTempWithQuery.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ReplaceTypeCodeWithSubclasses.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/SeparateQueryFromModifier.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/SlideStatements.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/SplitLoop.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/SplitPhase.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/SplitVariable.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/SubstituteAlgorithm.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/badsmell/AlternativeClassesWithDifferentInterfaces.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/badsmell/BadSmellActionGroup.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/badsmell/Comments.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/badsmell/DataClass.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/badsmell/DataClumps.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/badsmell/DivergentChange.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/badsmell/DuplicatedCode.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/badsmell/FeatureEnvy.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/badsmell/GlobalData.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/badsmell/LargeClass.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/badsmell/LazyElement.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/badsmell/LongFunction.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/badsmell/LongParameterList.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/badsmell/Loops.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/badsmell/MessageChains.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/badsmell/MiddleMan.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/badsmell/MutableData.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/badsmell/MysteriousName.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/badsmell/PrimitiveObsession.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/badsmell/RefusedBequest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/badsmell/RepeatedSwitches.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/badsmell/ShotgunSurgery.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/badsmell/SpeculativeGenerality.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/badsmell/TemporaryField.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/common/BaseRsAction.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/common/ReferencedAction.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/badSmell.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/BaseRsAction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/BaseRsAction.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/BaseRsAction.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ChangeFunctionDeclaration.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ChangeFunctionDeclaration.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ChangeReferenceToValue.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ChangeReferenceToValue.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ChangeValueToReference.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ChangeValueToReference.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/CollapseHierarchy.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/CollapseHierarchy.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/CombineFunctionsIntoClass.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/CombineFunctionsIntoClass.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/CombineFunctionsIntoTransform.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/CombineFunctionsIntoTransform.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ConsolidateConditionalExpression.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ConsolidateConditionalExpression.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/DecomposeConditional.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/DecomposeConditional.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/EncapsulateCollection.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/EncapsulateCollection.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/EncapsulateRecord.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/EncapsulateRecord.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/EncapsulateVariable.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/EncapsulateVariable.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ExtractClass.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ExtractClass.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ExtractFunction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ExtractFunction.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ExtractSuperclass.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ExtractSuperclass.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ExtractVariable.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ExtractVariable.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/HideDelegate.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/HideDelegate.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/InlineClass.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/InlineClass.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/InlineFunction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/InlineFunction.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/InlineVariable.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/InlineVariable.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/IntroduceAssertion.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/IntroduceAssertion.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/IntroduceParameterObject.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/IntroduceParameterObject.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/IntroduceSpecialCase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/IntroduceSpecialCase.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/MoveField.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/MoveField.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/MoveFunction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/MoveFunction.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/MoveStatementsIntoFunction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/MoveStatementsIntoFunction.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/MoveStatementsToCallers.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/MoveStatementsToCallers.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ParameterizeFunction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ParameterizeFunction.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/PreserveWholeObject.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/PreserveWholeObject.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/PullUpConstructorBody.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/PullUpConstructorBody.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/PullUpField.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/PullUpField.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/PullUpMethod.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/PullUpMethod.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/PushDownField.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/PushDownField.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/PushDownMethod.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/PushDownMethod.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/RemoveDeadCode.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/RemoveDeadCode.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/RemoveFlagArgument.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/RemoveFlagArgument.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/RemoveMiddleMan.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/RemoveMiddleMan.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/RemoveSettingMethod.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/RemoveSettingMethod.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/RemoveSubclass.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/RemoveSubclass.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/RenameField.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/RenameField.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/RenameVariable.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/RenameVariable.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ReplaceCommandWithFunction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ReplaceCommandWithFunction.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ReplaceConditionalWithPolymorphism.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ReplaceConditionalWithPolymorphism.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ReplaceConstructorWithFactoryFunction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ReplaceConstructorWithFactoryFunction.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ReplaceDerivedVariableWithQuery.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ReplaceDerivedVariableWithQuery.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ReplaceFunctionWithCommand.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ReplaceFunctionWithCommand.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ReplaceInlineCodeWithFunctionCall.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ReplaceInlineCodeWithFunctionCall.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ReplaceLoopWithPipeline.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ReplaceLoopWithPipeline.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ReplaceNestedConditionalWithGuardClauses.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ReplaceNestedConditionalWithGuardClauses.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ReplaceParameterWithQuery.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ReplaceParameterWithQuery.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ReplacePrimitiveWithObject.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ReplacePrimitiveWithObject.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ReplaceQueryWithParameter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ReplaceQueryWithParameter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ReplaceSubclassWithDelegate.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ReplaceSubclassWithDelegate.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ReplaceSuperclassWithDelegate.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ReplaceSuperclassWithDelegate.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ReplaceTempWithQuery.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ReplaceTempWithQuery.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ReplaceTypeCodeWithSubclasses.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/ReplaceTypeCodeWithSubclasses.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/SeparateQueryFromModifier.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/SeparateQueryFromModifier.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/SlideStatements.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/SlideStatements.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/SplitLoop.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/SplitLoop.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/SplitPhase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/SplitPhase.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/SplitVariable.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/SplitVariable.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/SubstituteAlgorithm.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/nisus/refactoringsheet/action/sheet/SubstituteAlgorithm.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/icons/SdkIcons.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/icons/SdkIcons.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/messages/text.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/messages/text.properties" afterDir="false" />
     </list>
@@ -94,7 +121,34 @@
             </after_sync>
           </activation>
         </task>
-        <projects_view />
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="intellij-plugin-refactoring-sheet" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="intellij-plugin-refactoring-sheet" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="intellij-plugin-refactoring-sheet" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="intellij-plugin-refactoring-sheet" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="intellij" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
@@ -102,6 +156,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
+        <option value="Kotlin Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -135,14 +191,75 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/Sync/Work/JAVA/Publish/intellij-plugin-refactoring-sheet/src/main/resources/icons",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Facets",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.18479532",
     "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Color Scheme Font"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Sync\Work\JAVA\Publish\intellij-plugin-refactoring-sheet\src\main\resources\icons" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.nisus.refactoringsheet.common" />
+    </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.nisus.refactoringsheet.badsmell" />
       <recent name="com.nisus.refactoringsheet.action.sheet" />
     </key>
+  </component>
+  <component name="RunManager" selected="Gradle.intellij-plugin-refactoring-sheet [clean]">
+    <configuration name="intellij-plugin-refactoring-sheet [buildPlugin]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="buildPlugin" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="intellij-plugin-refactoring-sheet [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.intellij-plugin-refactoring-sheet [clean]" />
+        <item itemvalue="Gradle.intellij-plugin-refactoring-sheet [buildPlugin]" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -154,6 +271,7 @@
       <updated>1664937392165</updated>
       <workItem from="1664937392166" duration="8567000" />
       <workItem from="1664950379384" duration="12704000" />
+      <workItem from="1664980183060" duration="8194000" />
     </task>
     <servers />
   </component>
