@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5917c5e2-00b4-45a6-9866-53545484705e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +98,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/Sync/Work/JAVA/Publish/intellij-plugin-refactoring-sheet/build/libs/intellij-plugin-refactoring-sheet-1.0.0.jar",
+    "last_opened_file_path": "E:/Sync/Work/JAVA/Publish/intellij-plugin-refactoring-sheet/doc",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Facets",
     "project.structure.proportion": "0.0",
@@ -110,6 +108,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Sync\Work\JAVA\Publish\intellij-plugin-refactoring-sheet\doc" />
       <recent name="E:\Sync\Work\JAVA\Publish\intellij-plugin-refactoring-sheet\src\main\resources\icons" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
@@ -120,7 +119,7 @@
       <recent name="com.nisus.refactoringsheet.action.sheet" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in intellij-plugin-refactoring-sheet">
+  <component name="RunManager" selected="Gradle.Run Plugin">
     <configuration name="intellij-plugin-refactoring-sheet [buildPlugin]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -189,7 +188,7 @@
       <updated>1664937392165</updated>
       <workItem from="1664937392166" duration="8567000" />
       <workItem from="1664950379384" duration="12704000" />
-      <workItem from="1664980183060" duration="9239000" />
+      <workItem from="1664980183060" duration="10621000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 坏味道">
       <created>1664989036974</created>
@@ -198,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664989036974</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="发布">
+      <created>1664990325890</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664990325890</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,7 +214,8 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="feat: 坏味道" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 坏味道" />
+    <MESSAGE value="发布" />
+    <option name="LAST_COMMIT_MESSAGE" value="发布" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
