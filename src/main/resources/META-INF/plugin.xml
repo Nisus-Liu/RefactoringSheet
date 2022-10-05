@@ -8,14 +8,16 @@
     <name>RefactoringSheet</name>
 
     <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
-    <vendor email="609069481@qq.com" url="https://www.life666.top">Nisus</vendor>
+    <vendor email="liuhejun108@163.com" url="https://www.life666.top">Nisus</vendor>
 
     <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
          Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
     <description><![CDATA[
     重构方法速查。<br>
-    《重构-改善既有代码的设计》（Refactoring, Improving the Design of Existing Code）<br>
+    《重构-改善既有代码的设计》（Refactoring, Improving the Design of Existing Code）（第二版）<br>
+    <br>
+    <i>鸣谢：<a href="https://book-refactoring2.ifmicro.com">https://book-refactoring2.ifmicro.com</a></i>
   ]]></description>
 
     <!-- Product and plugin compatibility requirements.
@@ -37,9 +39,141 @@
                popup="true"
                icon="SdkIcons.PluginIcon">
             <add-to-group group-id="EditorPopupMenu" anchor="last"/>
+            <!--本组同时存在 Tools 菜单 和 右键菜单中-->
+            <add-to-group group-id="ToolsMenu" anchor="last"/>
+
+            <!--重构方法列表-->
+            <separator text="第一组重构" />
             <action id="com.nisus.refactoringsheet.action.sheet.ExtractFunction"
                     class="com.nisus.refactoringsheet.action.sheet.ExtractFunction"
                     text="提炼函数（Extract Function）"/>
+            <action id="com.nisus.refactoringsheet.action.sheet.InlineFunction"
+                    class="com.nisus.refactoringsheet.action.sheet.InlineFunction"/>
+            <action id="com.nisus.refactoringsheet.action.sheet.ExtractVariable"
+                    class="com.nisus.refactoringsheet.action.sheet.ExtractVariable"/>
+            <action id="com.nisus.refactoringsheet.action.sheet.InlineVariable"
+                    class="com.nisus.refactoringsheet.action.sheet.InlineVariable"/>
+            <action id="com.nisus.refactoringsheet.action.sheet.ChangeFunctionDeclaration"
+                    class="com.nisus.refactoringsheet.action.sheet.ChangeFunctionDeclaration"/>
+            <action id="com.nisus.refactoringsheet.action.sheet.EncapsulateVariable"
+                    class="com.nisus.refactoringsheet.action.sheet.EncapsulateVariable"/>
+            <action id="com.nisus.refactoringsheet.action.sheet.RenameVariable"
+                    class="com.nisus.refactoringsheet.action.sheet.RenameVariable"/>
+            <action id="com.nisus.refactoringsheet.action.sheet.IntroduceParameterObject"
+                    class="com.nisus.refactoringsheet.action.sheet.IntroduceParameterObject"/>
+            <action id="com.nisus.refactoringsheet.action.sheet.CombineFunctionsIntoClass"
+                    class="com.nisus.refactoringsheet.action.sheet.CombineFunctionsIntoClass"/>
+            <action id="com.nisus.refactoringsheet.action.sheet.CombineFunctionsIntoTransform"
+                    class="com.nisus.refactoringsheet.action.sheet.CombineFunctionsIntoTransform"/>
+            <action id="com.nisus.refactoringsheet.action.sheet.SplitPhase"
+                    class="com.nisus.refactoringsheet.action.sheet.SplitPhase"/>
+
+            <separator text="封装" />
+            <action id="com.nisus.refactoringsheet.action.sheet.EncapsulateRecord"
+                    class="com.nisus.refactoringsheet.action.sheet.EncapsulateRecord"/>
+            <action id="com.nisus.refactoringsheet.action.sheet.EncapsulateCollection"
+                    class="com.nisus.refactoringsheet.action.sheet.EncapsulateCollection"/>
+            <action id="com.nisus.refactoringsheet.action.sheet.ReplacePrimitiveWithObject"
+                    class="com.nisus.refactoringsheet.action.sheet.ReplacePrimitiveWithObject"/>
+            <action id="com.nisus.refactoringsheet.action.sheet.ReplaceTempWithQuery"
+                    class="com.nisus.refactoringsheet.action.sheet.ReplaceTempWithQuery"/>
+            <action id="com.nisus.refactoringsheet.action.sheet.ExtractClass"
+                    class="com.nisus.refactoringsheet.action.sheet.ExtractClass"/>
+            <action id="com.nisus.refactoringsheet.action.sheet.InlineClass"
+                    class="com.nisus.refactoringsheet.action.sheet.InlineClass"/>
+            <action id="com.nisus.refactoringsheet.action.sheet.HideDelegate"
+                    class="com.nisus.refactoringsheet.action.sheet.HideDelegate"/>
+            <action id="com.nisus.refactoringsheet.action.sheet.RemoveMiddleMan"
+                    class="com.nisus.refactoringsheet.action.sheet.RemoveMiddleMan"/>
+            <action id="com.nisus.refactoringsheet.action.sheet.SubstituteAlgorithm"
+                    class="com.nisus.refactoringsheet.action.sheet.SubstituteAlgorithm"/>
+
+            <separator text="搬移特性"/>
+            <action id="com.nisus.refactoringsheet.action.sheet.MoveFunction"
+                    class="com.nisus.refactoringsheet.action.sheet.MoveFunction"/>
+            <action id="com.nisus.refactoringsheet.action.sheet.MoveField"
+                    class="com.nisus.refactoringsheet.action.sheet.MoveField"/>
+            <action id="com.nisus.refactoringsheet.action.sheet.MoveStatementsIntoFunction"
+                    class="com.nisus.refactoringsheet.action.sheet.MoveStatementsIntoFunction"/>
+            <action id="com.nisus.refactoringsheet.action.sheet.MoveStatementsToCallers"
+                    class="com.nisus.refactoringsheet.action.sheet.MoveStatementsToCallers"/>
+            <action id="com.nisus.refactoringsheet.action.sheet.ReplaceInlineCodeWithFunctionCall"
+                    class="com.nisus.refactoringsheet.action.sheet.ReplaceInlineCodeWithFunctionCall"/>
+            <action id="com.nisus.refactoringsheet.action.sheet.SlideStatements"
+                    class="com.nisus.refactoringsheet.action.sheet.SlideStatements"/>
+            <action id="com.nisus.refactoringsheet.action.sheet.SplitLoop"
+                    class="com.nisus.refactoringsheet.action.sheet.SplitLoop"/>
+            <action id="com.nisus.refactoringsheet.action.sheet.ReplaceLoopWithPipeline"
+                    class="com.nisus.refactoringsheet.action.sheet.ReplaceLoopWithPipeline"/>
+            <action id="com.nisus.refactoringsheet.action.sheet.RemoveDeadCode"
+                    class="com.nisus.refactoringsheet.action.sheet.RemoveDeadCode"/>
+
+            <separator text="重新组织数据"/>
+            <action id="com.nisus.refactoringsheet.action.sheet.SplitVariable"
+                    class="com.nisus.refactoringsheet.action.sheet.SplitVariable"/>
+            <action id="com.nisus.refactoringsheet.action.sheet.ReplaceDerivedVariableWithQuery"
+                    class="com.nisus.refactoringsheet.action.sheet.ReplaceDerivedVariableWithQuery"/>
+            <action id="com.nisus.refactoringsheet.action.sheet.ChangeReferenceToValue"
+                    class="com.nisus.refactoringsheet.action.sheet.ChangeReferenceToValue"/>
+            <action id="com.nisus.refactoringsheet.action.sheet.ChangeValueToReference"
+                    class="com.nisus.refactoringsheet.action.sheet.ChangeValueToReference"/>
+
+            <separator text="简化条件逻辑"/>
+            <action id="com.nisus.refactoringsheet.action.sheet.DecomposeConditional"
+                    class="com.nisus.refactoringsheet.action.sheet.DecomposeConditional"/>
+            <action id="com.nisus.refactoringsheet.action.sheet.ConsolidateConditionalExpression"
+                    class="com.nisus.refactoringsheet.action.sheet.ConsolidateConditionalExpression"/>
+            <action id="com.nisus.refactoringsheet.action.sheet.ReplaceNestedConditionalWithGuardClauses"
+                    class="com.nisus.refactoringsheet.action.sheet.ReplaceNestedConditionalWithGuardClauses"/>
+            <action id="com.nisus.refactoringsheet.action.sheet.ReplaceConditionalWithPolymorphism"
+                    class="com.nisus.refactoringsheet.action.sheet.ReplaceConditionalWithPolymorphism"/>
+            <action id="com.nisus.refactoringsheet.action.sheet.IntroduceSpecialCase"
+                    class="com.nisus.refactoringsheet.action.sheet.IntroduceSpecialCase"/>
+            <action id="com.nisus.refactoringsheet.action.sheet.IntroduceAssertion"
+                    class="com.nisus.refactoringsheet.action.sheet.IntroduceAssertion"/>
+
+            <separator text="重构 API"/>
+            <action id="com.nisus.refactoringsheet.action.sheet.SeparateQueryFromModifier"
+                    class="com.nisus.refactoringsheet.action.sheet.SeparateQueryFromModifier"/>
+            <action id="com.nisus.refactoringsheet.action.sheet.ParameterizeFunction"
+                    class="com.nisus.refactoringsheet.action.sheet.ParameterizeFunction"/>
+            <action id="com.nisus.refactoringsheet.action.sheet.RemoveFlagArgument"
+                    class="com.nisus.refactoringsheet.action.sheet.RemoveFlagArgument"/>
+            <action id="com.nisus.refactoringsheet.action.sheet.PreserveWholeObject"
+                    class="com.nisus.refactoringsheet.action.sheet.PreserveWholeObject"/>
+            <action id="com.nisus.refactoringsheet.action.sheet.ReplaceParameterWithQuery"
+                    class="com.nisus.refactoringsheet.action.sheet.ReplaceParameterWithQuery"/>
+            <action id="com.nisus.refactoringsheet.action.sheet.RemoveSettingMethod"
+                    class="com.nisus.refactoringsheet.action.sheet.RemoveSettingMethod"/>
+            <action id="com.nisus.refactoringsheet.action.sheet.ReplaceConstructorWithFactoryFunction"
+                    class="com.nisus.refactoringsheet.action.sheet.ReplaceConstructorWithFactoryFunction"/>
+            <action id="com.nisus.refactoringsheet.action.sheet.ReplaceFunctionWithCommand"
+                    class="com.nisus.refactoringsheet.action.sheet.ReplaceFunctionWithCommand"/>
+            <action id="com.nisus.refactoringsheet.action.sheet.ReplaceCommandWithFunction"
+                    class="com.nisus.refactoringsheet.action.sheet.ReplaceCommandWithFunction"/>
+            <action id="com.nisus.refactoringsheet.action.sheet.PullUpMethod"
+                    class="com.nisus.refactoringsheet.action.sheet.PullUpMethod"/>
+            <action id="com.nisus.refactoringsheet.action.sheet.PullUpField"
+                    class="com.nisus.refactoringsheet.action.sheet.PullUpField"/>
+            <action id="com.nisus.refactoringsheet.action.sheet.PullUpConstructorBody"
+                    class="com.nisus.refactoringsheet.action.sheet.PullUpConstructorBody"/>
+            <action id="com.nisus.refactoringsheet.action.sheet.PushDownMethod"
+                    class="com.nisus.refactoringsheet.action.sheet.PushDownMethod"/>
+            <action id="com.nisus.refactoringsheet.action.sheet.PushDownField"
+                    class="com.nisus.refactoringsheet.action.sheet.PushDownField"/>
+            <action id="com.nisus.refactoringsheet.action.sheet.ReplaceTypeCodeWithSubclasses"
+                    class="com.nisus.refactoringsheet.action.sheet.ReplaceTypeCodeWithSubclasses"/>
+            <action id="com.nisus.refactoringsheet.action.sheet.RemoveSubclass"
+                    class="com.nisus.refactoringsheet.action.sheet.RemoveSubclass"/>
+            <action id="com.nisus.refactoringsheet.action.sheet.ExtractSuperclass"
+                    class="com.nisus.refactoringsheet.action.sheet.ExtractSuperclass"/>
+            <action id="com.nisus.refactoringsheet.action.sheet.CollapseHierarchy"
+                    class="com.nisus.refactoringsheet.action.sheet.CollapseHierarchy"/>
+            <action id="com.nisus.refactoringsheet.action.sheet.ReplaceSuperclassWithDelegate"
+                    class="com.nisus.refactoringsheet.action.sheet.ReplaceSuperclassWithDelegate"/>
+
+            <separator/>
+
             <action id="com.nisus.refactoringsheet.action.BrowseBookAction"
                     class="com.nisus.refactoringsheet.action.BrowseBookAction"
                     icon="SdkIcons.BookIcon"
