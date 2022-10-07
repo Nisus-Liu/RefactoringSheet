@@ -14,11 +14,23 @@
          Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
     <description><![CDATA[
+    Refactoring method quick check,
+    based on the book: 'Refactoring, Improving the Design of Existing Code' (Edition 2)
+    <br><br>
+    <i>Thanks：<a href="https://book-refactoring2.ifmicro.com">https://book-refactoring2.ifmicro.com</a></i>
+    <br><br>
     重构方法速查。<br>
     《重构-改善既有代码的设计》（Refactoring, Improving the Design of Existing Code）（第二版）<br>
     <br>
     <i>鸣谢：<a href="https://book-refactoring2.ifmicro.com">https://book-refactoring2.ifmicro.com</a></i>
-  ]]></description>
+    ]]>
+    </description>
+    <change-notes><![CDATA[
+      <ul>
+        <li><b>1.0.0</b> Release basic features.</li>
+      </ul>
+    ]]>
+    </change-notes>
 
     <!-- Product and plugin compatibility requirements.
          Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
